@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<h2>Salud</h2>
+
+<select id="pacienteSelect"></select>
+
+<div class="grid">
+<input id="enfermedad" placeholder="Enfermedad">
+<input id="tiempo" placeholder="Cantidad (ej: 5)">
+<select id="tipoTiempo">
+<option value="años">Años</option>
+<option value="meses">Meses</option>
+<option value="días">Días</option>
+</select>
+<input type="date" id="fechaDiagnostico">
+<input id="medicacion" placeholder="Medicamentos">
+<input id="alergias" placeholder="Alergias">
+</div>
+
+<button onclick="addSalud()">Agregar</button>
+
+<ul id="listaSalud"></ul>
+
+<a href="index.html" class="btn-volver">⬅ Volver</a>
+
+<script src="js/app.js"></script>
+
+<footer class="footer">
+  <p>© 2026 - Jaycob Ricardo Gómez Ortiz</p>
+  <p>Matrícula: 100529648</p>
+</footer>
+
+</body>
+</html>
